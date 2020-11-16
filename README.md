@@ -35,6 +35,7 @@ run
 baca170ef8cbはElasticsearchのコンテナID
 
 ## ブラウザでKibanaにアクセス
+
 http://localhost:5601 
 ブラウザでKibanaにアクセス可能になる
 
