@@ -41,8 +41,18 @@ http://localhost:5601
 
 ## Elasticsearchにデータを入れてみる
 
+post
 ```
+% cat test.json 
+{
+    "user" : "Taro",
+    "post_date" : "2009-11-15T14:12:12",
+    "message" : "trying out Elastic Search"
+}
+% curl -XPOST -H "Content-type: application/json" http://localhost:9200/my_index/data/ -d @test.json
 ```
+
+
 
 
 
