@@ -11,10 +11,12 @@ Docker version 19.03.5, build 633a0ea
 
 ## Docker pull and run Elasticsearch 
 
+pull
 ```
 % docker pull docker.elastic.co/elasticsearch/elasticsearch:7.10.0
 ```
 
+run
 ```
  % docker run -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:7.10.0
 ```
