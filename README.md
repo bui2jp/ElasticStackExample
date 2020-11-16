@@ -39,3 +39,10 @@ baca170ef8cbはElasticsearchのコンテナID
 http://localhost:5601 
 ブラウザでKibanaにアクセス可能になる
 
+## Elasticsearchにデータを入れてみる
+
+```
+```
+
+
+
