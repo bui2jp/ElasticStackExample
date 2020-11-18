@@ -18,7 +18,7 @@ pull
 
 run
 ```
- % docker run -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:7.10.0
+ % docker run -d --rm -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:7.10.0
 ```
 
 ## Docker pull and run Kibana
@@ -30,7 +30,7 @@ pull
 
 run
 ```
-% docker run --link baca170ef8cb:elasticsearch -p 5601:5601 docker.elastic.co/kibana/kibana:7.10.0
+% docker run -d --rm --link baca170ef8cb:elasticsearch -p 5601:5601 docker.elastic.co/kibana/kibana:7.10.0
 ```
 baca170ef8cbはElasticsearchのコンテナID
 
